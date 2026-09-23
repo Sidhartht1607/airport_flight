@@ -1,0 +1,18 @@
+# Claude Code project settings
+.claude/
+
+# Python virtualenv
+myenv/
+__pycache__/
+*.pyc
+
+# Raw DOT flight data (too large for GitHub — see README "Getting the data")
+flight_jan.csv
+flight_feb.csv
+flight_mar.csv
+
+# MLflow local UI log
+mlflow_ui.log
+
+# OS cruft
+.DS_Store
